@@ -1,4 +1,4 @@
-# PowerPoint Control Server
+# PowerPoint Control Server (macOS only)
 
 A web-based remote control for presentations with built-in audio and volume management capabilities.
 
@@ -20,7 +20,7 @@ A web-based remote control for presentations with built-in audio and volume mana
 1. Clone the repository:
    ```
    git clone https://github.com/SuperBGLazer/PowerPoint-Control-Server.git
-   cd powerpoint-server
+   cd PowerPoint-Control-Server/
    ```
 
 2. Install Node.js dependencies:
