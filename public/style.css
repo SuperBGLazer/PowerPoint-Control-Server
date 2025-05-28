@@ -1,0 +1,111 @@
+html, body {
+  margin: 5px;
+  height: 100%;
+  font-family: -apple-system, sans-serif;
+}
+.container {
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+/* Add spacing for the blackout container */
+.blackout-container {
+  margin-top: 1rem;
+}
+.btn {
+  flex: 1;
+  padding: 2rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 1rem;
+  background: #007aff;
+  color: white;
+  touch-action: manipulation;
+}
+.btn:active {
+  transform: scale(0.98);
+  opacity: 0.8;
+}
+/* Blackout button style */
+.btn-blackout {
+  background: #333;
+}
+
+/* Audio device styles */
+.audio-container {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.current-device {
+  grid-column: 1 / -1;
+  padding: 0.5rem;
+  background: #f0f0f0;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.device-select {
+  grid-column: 1 / -1;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.btn-audio {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background: #34c759;
+}
+
+.btn-refresh {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background: #5856d6;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+#audio-loading {
+  margin: 1rem 0;
+  font-style: italic;
+}
+
+/* Volume control styles */
+.volume-container {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.current-volume {
+  grid-column: 1 / -1;
+  padding: 0.5rem;
+  background: #f0f0f0;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.volume-slider {
+  grid-column: 1 / -1;
+  width: 100%;
+  height: 2rem;
+}
+
+.volume-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.btn-volume {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background: #ff9500;
+}
